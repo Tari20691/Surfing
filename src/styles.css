@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(90.4deg, rgb(255, 220, 163) 21.2%, rgb(129, 255, 239) 90.7%);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 600px;
+    background-color: rgba(245, 245, 219, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+#picOne {
+    width: 300px;
+    height: 300px;
+}
+#picTwo {
+    width: 300px;
+    height: 300px;
+}
+#picThree {
+    width: 300px;
+    height: 300px;
+}
+#picFour {
+    width: 300px;
+    height: 300px;
+}
+#picFive {
+    width: 300px;
+    height: 300px;
+}
+#picSix {
+    width: 300px;
+    height: 300px;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid;
+    background: rgba(245, 245, 219, 0.8);
+    border-radius: 3px;
+    padding: 5px 10px;
+    transition: all 150ms ease-in-out;
+}
+button:hover {
+    background: linear-gradient(90.4deg, rgb(255, 220, 163) 21.2%, rgb(129, 255, 239) 90.7%);
+    cursor: pointer;
+}
+.theme-button{
+    font-size: 12px;
+    background: black;
+    color: white;
+    padding: 5px 8px;
+}
+.theme-button:hover{
+    color: black;
+    background: white;
+}
+footer{
+    text-align: center;
+    margin: 10px 0;
+    color: #00535C;
+}
