@@ -1,9 +1,12 @@
 body{
     background: linear-gradient(90.4deg, rgb(255, 220, 163) 21.2%, rgb(129, 255, 239) 90.7%);
+    font-family: 'Raleway', sans-serif;
 }
+
 h1{
     text-align: center;
 }
+
 h2{
     text-align: center;
 }
@@ -19,6 +22,10 @@ h2{
 img {
     display: block;
     margin: 0 auto;
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
 }
 
 .picOne {
