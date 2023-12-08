@@ -19,13 +19,28 @@ h2{
     display: block;
     margin: 0 auto;
 }
+
 img {
     display: block;
     margin: 0 auto;
 }
+
 p{
     text-align: justify;
     line-height: 1.5;
+}
+
+.grid {
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 8px;
 }
 
 .picOne {
@@ -38,30 +53,8 @@ p{
     filter: contrast(80%);
     transform: scale(1.05);
 }
-
 .picTwo {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.picThree {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.picFour {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.picFive {
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-.picSix {
-    max-width: 100%;
-    border-radius: 10px;
+    height: 195px;
 }
 
 button {
